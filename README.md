@@ -5,9 +5,9 @@ The system answers questions strictly based on retrieved Medium article chunks a
 
 ## Live Deployment
 
-Base URL: `https://YOUR-VERCEL-URL.vercel.app`
+Base URL: `https://medium-rag-assistant-iota.vercel.app`
 
-Swagger Docs: `https://YOUR-VERCEL-URL.vercel.app/docs`
+Swagger Docs: `https://medium-rag-assistant-iota.vercel.app/docs `
 
 ## Main Endpoint
 
