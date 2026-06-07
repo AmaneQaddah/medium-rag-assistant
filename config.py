@@ -16,9 +16,9 @@ CHAT_MODEL = os.getenv("CHAT_MODEL", "4UHRUIN-gpt-5-mini")
 
 EMBEDDING_DIMENSION = int(os.getenv("EMBEDDING_DIMENSION", "1536"))
 
-CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "512"))
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "800"))
 OVERLAP_RATIO = float(os.getenv("OVERLAP_RATIO", "0.2"))
-TOP_K = int(os.getenv("TOP_K", "10"))
+TOP_K = int(os.getenv("TOP_K", "8"))
 
 CSV_PATH = os.getenv("CSV_PATH", "medium-english-50mb.csv")
 INGEST_MAX_ARTICLES = os.getenv("INGEST_MAX_ARTICLES")
